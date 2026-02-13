@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  padding: 20px 20px;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.navbar.active {
+    background-color: rgba(74, 100, 160, 0.3);
+}
+
+.navbar h2{
+  padding-left: 0px;
+}
+
+.navbar-link{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a :hover{
+    transform: scale(1.5);
+    transition-duration: 100ms;
+}

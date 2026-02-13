@@ -1,0 +1,18 @@
+.info{
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.info img{
+  height: 30px;
+}
+
+.footerArea{
+  height: 400px;
+  background-color: rgb(74, 100, 160);
+  padding: 40px;
+  color: white;
+}

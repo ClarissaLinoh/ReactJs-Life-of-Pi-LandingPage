@@ -1,0 +1,27 @@
+.descArea{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.descArea h2{
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.descArea p{
+  font-size: 20px;
+    padding: 20px 20%;
+    margin-top: 0px;
+
+}
+
+.descArea a{
+    text-decoration: none;
+    color: rgb(214, 222, 170);
+}
