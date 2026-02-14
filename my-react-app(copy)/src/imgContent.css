@@ -1,0 +1,33 @@
+.img-content {
+  display: grid;
+  background-color: rgb(27, 19, 76);
+  padding: 80px 80px;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  height: 880px;
+  color: white;
+}
+
+.card{
+  text-align: center;
+}
+
+.card img{
+  width: 400px;
+  height: 600px;
+  aspect-ratio: 1 /1;
+  object-fit: cover;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+
+.card img:hover{
+  transform: scale(1.2);
+  transition-duration: 1000ms;
+}
+
+.card p{
+  margin-top: 12px;
+  font-size: 30px;
+}
